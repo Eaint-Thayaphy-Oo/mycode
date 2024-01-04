@@ -1,0 +1,21 @@
+.container {
+  height: calc(100vh-5em);
+  display: grid;
+  place-items: center;
+  padding: 1em;
+  text-align: center;
+}
+
+.button {
+  all: unset;
+  margin-top: 1em;
+  background-color: coral;
+  padding: 0.5em 1em;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px rgb(98, 98, 98);
+}

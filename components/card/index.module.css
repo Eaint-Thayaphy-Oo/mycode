@@ -1,0 +1,45 @@
+.card {
+  flex-basis: 300px;
+  flex-grow: 1;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: cornsilk;
+  box-shadow: 0 0 10 px rgb(211, 211, 211);
+  border-radius: 10px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.description {
+  margin: 0;
+  color: rgb(73, 73, 73);
+}
+
+.button {
+  all: unset;
+  padding: 0.5em 1em;
+  background-color: coral;
+  width: max-content;
+  color: white;
+  border-radius: 4px;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px rgba(112, 112, 112, 0.685);
+}
+
+@media (min-width: 600px) {
+  .card {
+    flex-grow: 0;
+    flex-basis: 400px;
+  }
+
+  .header {
+    margin-bottom: 1.5em;
+  }
+}
